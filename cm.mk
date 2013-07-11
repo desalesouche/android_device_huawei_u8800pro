@@ -12,7 +12,7 @@ $(call inherit-product, vendor/cm/config/gsm.mk)
 
 # Setup device configuration
 
-PRODUCT_NAME := shendu_u8800pro
+PRODUCT_NAME := cm_u8800pro
 PRODUCT_DEVICE := u8800pro
 PRODUCT_BRAND := Huawei
 PRODUCT_MODEL := U8800Pro
@@ -24,4 +24,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 	PRODUCT_NAME=u8800pro \
 	BUILD_FINGERPRINT=huawei/u8800pro:4.2.1/IMM76L/223133:userdebug/test-keys \
 	PRIVATE_BUILD_DESC="huawei-user 4.2.1 IMM76L 223133 test-keys" \
-	BUILD_NUMBER=223134
+	BUILD_NUMBER=JDQ39E
