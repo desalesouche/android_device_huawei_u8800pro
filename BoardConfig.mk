@@ -6,8 +6,14 @@
 TARGET_BOOTLOADER_BOARD_NAME := u8800pro
 TARGET_OTA_ASSERT_DEVICE := u8800pro,U8800PRO
 
+# RIL
+BOARD_RIL_CLASS := ../../../device/huawei/u8800pro/RIL/
+
+# Bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR ?= device/huawei/u8800pro/bluetooth
+
 # Kernel
-TARGET_KERNEL_CONFIG := shendu_u8800pro_defconfig
+TARGET_KERNEL_CONFIG := cyanogenmod_u8800pro_defconfig
 
 TARGET_PREBUILT_KERNEL := device/huawei/u8800pro/kernel
 TARGET_PREBUILT_RECOVERY_KERNEL := device/huawei/u8800pro/kernel
