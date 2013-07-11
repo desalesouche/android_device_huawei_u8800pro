@@ -16,4 +16,3 @@
 
 add_lunch_combo huawei_u8800pro-userdebug
 add_lunch_combo cm_u8800pro-userdebug
-add_lunch_combo shendu_u8800pro-userdebug
