@@ -30,6 +30,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/huawei/u8800pro/prebuilt/20uncapfps:system/etc/init.d/20uncapfps
 
+# Wi-Fi Modules
+PRODUCT_COPY_FILES += \
+    device/huawei/u8800pro/prebuilt/bcmdhd.ko:system/lib/modules/bcmdhd.ko
+
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := huawei_u8800pro
 PRODUCT_DEVICE := u8800pro
