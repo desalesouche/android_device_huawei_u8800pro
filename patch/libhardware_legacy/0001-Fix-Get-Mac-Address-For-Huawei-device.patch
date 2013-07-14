@@ -72,7 +72,7 @@ index 90b7632..203d734 100644
 +    if(sernum != NULL){
 +        sertomac(sernum,mac_addr);
 +        sprintf(mac_param,"mac_param=%s %s", mac_addr, DRIVER_MODULE_ARG);
-+    else{
++    }else{
 +        memset(x,0,8);
 +        y=0;
 +        huawei_oem_rapi_streaming_function(3,0,0,0,0,&y,x);
